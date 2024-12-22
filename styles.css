@@ -1,0 +1,90 @@
+/* تضمين خط من Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* خلفية الصفحة بتدرج لوني هادئ */
+body {
+    background: linear-gradient(to right, #a8d0e6, #f5f7fa); /* تدرج لوني هادئ */
+    font-family: 'Roboto', sans-serif; /* تغيير شكل الخط إلى روبوت */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000; /* تغيير لون النص إلى الأسود في جميع الصفحة */
+}
+
+/* تنسيق الصندوق الذي يحتوي على السيرة الذاتية */
+.container {
+    background-color: #fff; /* خلفية الصندوق بيضاء */
+    color: #000; /* النص داخل الصندوق باللون الأسود */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+
+    /* إضافة إطار منسق للصندوق باللون الأسود */
+    border: 3px solid #000;  /* الإطار باللون الأسود */
+    border-radius: 15px;         /* زوايا الإطار دائرية */
+    padding: 20px;               /* مسافة داخلية بين الإطار والمحتوى */
+}
+
+/* تنسيق الصورة الدائرية */
+.profile-img {
+    width: 150px; /* زيادة حجم الصورة */
+    height: 150px; /* زيادة ارتفاع الصورة */
+    border-radius: 50%; /* جعل الصورة دائرية */
+    margin-bottom: 20px; /* المسافة بين الصورة والرسالة */
+    object-fit: cover; /* يجعل الصورة تناسب الشكل الدائري */
+}
+
+/* تنسيق العناوين */
+h1 {
+    color: #000;  /* اللون الأسود للعناوين */
+    font-weight: 500; /* زيادة سمك الخط */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الفقرات */
+p {
+    font-size: 18px;
+    color: #000; /* النص باللون الأسود */
+    font-weight: 400; /* سمك الخط الافتراضي */
+}
+
+/* تنسيق الأزرار */
+button {
+    background-color: #4CAF50; /* اللون الأخضر للأزرار */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* تأثير التمرير على الأزرار */
+}
+
+/* تنسيق الروابط */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4CAF50; /* اللون الأخضر للروابط */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline; /* تأثير التمرير على الروابط */
+}
+img
+{
+width: 150px;
+height: 150px;
+border-radius: 50px;
+}
